@@ -1,6 +1,7 @@
 [project]
 name = "polyvoice-ai"
 version = "0.1.0"
+license = { text = "MIT" }
 description = "Multilingual speech generation research platform"
 requires-python = ">=3.11,<3.13"
 dependencies = [

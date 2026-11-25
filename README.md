@@ -62,4 +62,4 @@ Voice input needs microphone permission (works on `http://127.0.0.1`). "Our mode
 
 ## Licence
 
-No licence has been chosen for this repository yet, so all rights are reserved until one is added. Third-party models and datasets keep their own licences (see above).
+The code in this repository is released under the [MIT License](LICENSE). That covers this repository's own code and documentation only: the third-party models and datasets it uses keep their own licences (see the tables above, `docs/model_licenses.md` and `configs/datasets_manifest.json`). In particular the Meta MMS voices are non-commercial (CC-BY-NC-4.0), and espeak-ng, used for pronunciation, is GPL-3.0.
