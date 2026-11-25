@@ -1,0 +1,523 @@
+{
+ "checkpoint": "runs/fs2_multi_v1/ckpt/step_0082000.pt",
+ "step": 82000,
+ "languages": {
+  "en": {
+   "n": 10,
+   "speakers": [
+    "en_lj"
+   ],
+   "synth": {
+    "wer": 0.11494252873563218,
+    "cer": 0.04044489383215369
+   },
+   "real": {
+    "wer": 0.005747126436781609,
+    "cer": 0.0020222446916076846
+   },
+   "examples": [
+    {
+     "ref": "However, the fact must not be blinked that machine-made paper cannot in the nature of things be made of so good a texture as that made by hand.",
+     "synth": "However, the fact must not be blinked, then the Qing-mei paper cannot, in the nature of things, be may you so go to texture as that made by hand.",
+     "real": "However, the fact must not be blinked. That machine-made paper cannot, in the nature of things, be made of so good a texture as that made by hand."
+    },
+    {
+     "ref": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard.",
+     "synth": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own lords and yard.",
+     "real": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard."
+    },
+    {
+     "ref": "There was no distinct place for the female debtors, who lived in the same galleries as the men.",
+     "synth": "There was no distinct place for the female debtors who lived in the same galleries as the men.",
+     "real": "There was no distinct place for the female debtors, who lived in the same galleries as the men."
+    }
+   ]
+  },
+  "de": {
+   "n": 10,
+   "speakers": [
+    "de_2422",
+    "de_4536",
+    "de_9565"
+   ],
+   "synth": {
+    "wer": 0.2964824120603015,
+    "cer": 0.10318791946308725
+   },
+   "real": {
+    "wer": 0.08542713567839195,
+    "cer": 0.02097315436241611
+   },
+   "examples": [
+    {
+     "ref": "Ich habe gestern nacht, so etwa fuhr der Zeuge fort, an Fräulein Olga Molitor geschrieben und sie um eine Unterredung ersucht",
+     "synth": "Ich habe gestern Nacht so etwa vor der Zeit beforcht, ein Frullein, Olga Molitor beschrieben und sie um eine Unterneidung ersucht.",
+     "real": "Ich habe gestern Nacht, so etwa, fuhr der Zeugefrucht, an Freundin Olga Molitor geschrieben und sie um eine Unterredung ersucht."
+    },
+    {
+     "ref": "Stell eine Pyramide auf, wandte er sich an den Markör.",
+     "synth": "Stellen eine Böhrer wieder auf, wann der er sich an den Mapöhr.",
+     "real": "Stell eine Pyramide auf, wandte er sich an den Markör."
+    },
+    {
+     "ref": "diese hatte er sich an den Gürtel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war",
+     "synth": "Dieser hatte er sich an den Würfel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war.",
+     "real": "Diese hatte er sich an den Gürtel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war."
+    }
+   ]
+  },
+  "fr": {
+   "n": 10,
+   "speakers": [
+    "fr_1840",
+    "fr_7423",
+    "fr_3060"
+   ],
+   "synth": {
+    "wer": 0.4235294117647059,
+    "cer": 0.1897810218978102
+   },
+   "real": {
+    "wer": 0.1,
+    "cer": 0.03441084462982273
+   },
+   "examples": [
+    {
+     "ref": "Tobie allait visiter presque tous ies jours tous ceux de ea parenté, les consolait, et distribuait de son bien à chacun d'eux selon son pouvoir",
+     "synth": "Tobi allait visiter presque tous les jours, tous ceux de l'apparente, et les consolés étaient distribués de son bien, achatant de celles en son pouvoir.",
+     "real": "Toby allait visiter presque tous les jours tous ceux de s'apparenter, les consoler, et distribuer de son bien, à chacun d'eux, selon son pouvoir."
+    },
+    {
+     "ref": "si vous parlez au roi, vous la perdez encore.",
+     "synth": "Si vous n'avez pas les ouvriers, vous la perdez encore.",
+     "real": "Si vous parlez au roi, vous la perdez encore."
+    },
+    {
+     "ref": "Emma interrompit son inspection lorsque le moment fut venu de se joindre aux autres pour la cueillette des fraises.",
+     "synth": "Le mal interrompit sans inspection. Lorsque le moment fut venu de se joindre aux autres pour accueillir des fraises.",
+     "real": "Emma interrompit son inspection lorsque le moment fut venu de se joindre aux autres pour l'accueillir des fraises."
+    }
+   ]
+  },
+  "es": {
+   "n": 10,
+   "speakers": [
+    "es_3946",
+    "es_10246",
+    "es_9972"
+   ],
+   "synth": {
+    "wer": 0.1889763779527559,
+    "cer": 0.05817174515235457
+   },
+   "real": {
+    "wer": 0.09448818897637795,
+    "cer": 0.02008310249307479
+   },
+   "examples": [
+    {
+     "ref": "brotó de entre las fábricas un lirio humano.",
+     "synth": "roto de entre las fábricas un lío humano",
+     "real": "pero todo entre las fábricas un lírio humano."
+    },
+    {
+     "ref": "Jamás he visto en rostro humano expresión de ferocidad como adquirió el de la tostadora",
+     "synth": "Zamas se vistó el rostro humano de expresión de ferocidad como aquí el de la tostadora.",
+     "real": "Jamás he visto en rostro humano expresión de ferocidad como adquirió el de la tostadora."
+    },
+    {
+     "ref": "la alucinación, dejando al principio lugar á la duda, bien pronto convencida y razonadora como un l i b r o; el absurdo instalándose en la inteligencia y gobernándola con una espantable lógica",
+     "synth": "la alucinación, dejando al principio lugar a la duda bien pronto convencida y razonadora como un liquibergoel absurdo instalándose en la inteligencia, y gobernándola como una espantable lógica.",
+     "real": "La alucinación, dejando al principio lugar a la duda, bien pronto convencida y razonadora como un libro, el absurdo instalándose en la inteligencia y gobernándola con una espantable lógica."
+    }
+   ]
+  },
+  "it": {
+   "n": 10,
+   "speakers": [
+    "it_1595",
+    "it_4974",
+    "it_4998"
+   ],
+   "synth": {
+    "wer": 0.14772727272727273,
+    "cer": 0.041666666666666664
+   },
+   "real": {
+    "wer": 0.10227272727272728,
+    "cer": 0.03125
+   },
+   "examples": [
+    {
+     "ref": "era Lei che mi aveva fatto il solletico,--replicò il signor Prospero, con molta dignità.",
+     "synth": "era lei che mi aveva fatto il sole etico, replica il signor Prospero con molta dignità.",
+     "real": "che mi aveva fatto sull'etico replicò il signor praspero con molta dignità"
+    },
+    {
+     "ref": "--Come l'uomo!--esclamò il priore, inarcando le ciglia.--Padre Natale, voi volete dire di più che non appaia dalle vostre parole. Se credete che l'uomo abbia l'obbligo di fare qualche cosa per gli altri, sapete come se n'esce. Tornate al secolo!--",
+     "synth": "Come l'uomo che splama il piore, inarcando le sigli a padre natale. Voi volete dire di più che non appaia dalle vostre parole, se credete che l'uomo abbia l'obbligo di fare qualche cosa per gli altri, sapete come se ne si tornate al secolo.",
+     "real": "Come l'uomo esclamò il priore in arcando le ciglia. Padre Natale, voi volete dire di più che non appaia dalle vostre parole. Se credete che l'uomo abbia l'obbligo di fare qualche cosa per gli altri, sapete come se ne esce. Tornate al seccolo."
+    },
+    {
+     "ref": "In città mancavano a dirittura le tracce dei colpevoli.",
+     "synth": "in città mancavano addirittura le tracce dei colpevoli.",
+     "real": "In città mancavano addertura le tracce dei colpevoli."
+    }
+   ]
+  },
+  "nl": {
+   "n": 10,
+   "speakers": [
+    "nl_2450",
+    "nl_1724",
+    "nl_1666"
+   ],
+   "synth": {
+    "wer": 0.47101449275362317,
+    "cer": 0.1859737006887915
+   },
+   "real": {
+    "wer": 0.2898550724637681,
+    "cer": 0.13149655604257984
+   },
+   "examples": [
+    {
+     "ref": "Was het interessant of niet",
+     "synth": "Was het interessant of niet?",
+     "real": "Was het interessant of niet?"
+    },
+    {
+     "ref": "van avond mag het schitterende verlichting zijn! riep Emilie vroolijk, nadat zij de drie kranen van de gaskroon had geopend en het gas met een geplof ontvlamd was. Morgen pas begint de zuinigheid! fluisterde zij zachter, opdat Fine haar niet zou hooren",
+     "synth": "Vanavond mag het schiet van de verlichting zijn liep ermee voor ik nadat zij de liekraning van de gast gewoon wat groepend. En het gast met een geprof omvlam was. Morgen pas begin de zijnigheid. Vrijstelden zij zachter op welf je haar niet zou horen.",
+     "real": "Voor vanavond mag het schitterende verlichting zijn, riep Emily vrolijk, nadat zij de drie kranen van de gaskron had geopend en het gas met een geplof ontvlampt was. Morgenpas begint de zuinigheid, fluisterde zij zachter, op dat Finaar niet zou horen."
+    },
+    {
+     "ref": "Zij doelde op klachten over Betsy, op andere, kleinere beslommeringen, maar raakte ze niet verder aan. En de oude vrouw schudde, reeds getroost en met een lachje, het hoofd",
+     "synth": "Zij doelde op krachten over beziel op andere kleinere bezorgenheden, maar raakte ze niet verder lang en de orde vooral schuldig is getroost en met een lachje het hoofd.",
+     "real": "Ze doelde op klachten over Betsy, op andere kleinere beslommeringen, maar raakte ze niet verder aan. En de oude vrouw schudde, reeds getroost en met een lachje het hoofd."
+    }
+   ]
+  },
+  "zh": {
+   "n": 10,
+   "speakers": [
+    "zh_SSB0193",
+    "zh_SSB0043",
+    "zh_SSB0018"
+   ],
+   "synth": {
+    "wer": 0.6486486486486487,
+    "cer": 0.3905660377358491
+   },
+   "real": {
+    "wer": 0.13513513513513514,
+    "cer": 0.1
+   },
+   "examples": [
+    {
+     "ref": "bao1 ni3 liu2 zhe ba",
+     "synth": "bang1 ni3 yan2 jiu1 ba",
+     "real": "bang1 ni3 liu2 zhe ba"
+    },
+    {
+     "ref": "zhan4 gai1 gong1 si1 zong3 li4 run4 de bai3 fen1 zhi1 san1 shi2 qi1",
+     "synth": "da4 jia1 wu4 shi1 cong2 yi1 wei4 lao3 bai3 fen1 zhi1 san1 shi2 qi1",
+     "real": "zhan4 gai1 gong1 si1 zong3 li4 run4 de"
+    },
+    {
+     "ref": "er4 ling2 yi1 wu3 zhong1 guo2 ji4 shu4 jing1 ji4 lun4 tan2 zai4 nan2 jing1 cai2 jing1 da4 xue2 ju3 ban4",
+     "synth": "ban4 yan3 yi1 wu4 feng1 gou3 ji1 shou4 jing1 xi1 wang4 zhang3 da4 nan2 jing1 ceng2 jing1 da4 xie2 zhu3 ban4",
+     "real": "zhong1 guo2 ji4 shu4 jing1 ji4 lun4 tan2 zai4 nan2 jing1 can2 jin1 da4 xue2 ju3 ban4"
+    }
+   ]
+  },
+  "hi": {
+   "n": 10,
+   "speakers": [
+    "hi_male",
+    "hi_female"
+   ],
+   "synth": {
+    "wer": 0.8450704225352113,
+    "cer": 0.464722483537159
+   },
+   "real": {
+    "wer": 0.5164319248826291,
+    "cer": 0.19379115710253997
+   },
+   "examples": [
+    {
+     "ref": "सर रिचर्ड ब्रैनसन के वर्जिन समूह ने उन बैंको के लिए बोली लगाई थी जिन्हे राष्ट्रीयकरण से पहले अस्वीकार कर दिया गया था।",
+     "synth": "सर्विष्वर्बाय्ना संके वाजिजिन समुर्ने मुर्वेंको के लिए पूरी रगाइती जिन्ये रास्तिया करन से पारे आस्वितार कर लिया देया का.",
+     "real": "सर रिचेर्ट ब्रेंसन की वरजिन समूने उन बेंको के लिए बोली लगाए ती, जिने राश्टी करन से पहले अस्विकार कर दिया ड़ा."
+    },
+    {
+     "ref": "जैसे कि ठंडे मौसम में साँस लेने की समस्याएँ, गर्म मौसम में आँतों की समस्याएँ काफी आम हैं और ज़्यादातर मामलों में विशिष्ट रूप से कष्टदायक होती हैं लेकिन वास्तव में ख़तरनाक नहीं.",
+     "synth": "जाएसे की तंबे वोसम लेगे की समस्याई देला वोसम में आंदों की समस्याई काभी आईगे पार्स्या दर्मावेलों में मिशिस्त्रों से खस्ट्राये को भी आईगे एंगे वास्तु में लेगे वर्वाग में",
+     "real": "जैसे की तन्डे मुसम में सास लेने की समस्याए गर्म मुसम में आतो की समस्याए कापी आम है और जाडदतर मामलों में विषिष्ट रूप से कष्टडाएक होती हैं लिकिन वास्तव में खदरनाक नहीं"
+    },
+    {
+     "ref": "लेकिन क्या हमारी कल्पना वास्तविकता पर आधारित है? महल बनाए ही क्यों गए थे? उन्हें कैसे डिज़ाइन और बनाया गया था?",
+     "synth": "देदिं त्या मरी तर्भिना बास्तविध्ता परहादारी तैक में बनाईगी तु देदिं तैसे दिजाई होर बनाईगा देयाता",
+     "real": "लिकिन क्या हमारी कल्पना वास्त्विक्ता पर अथारित है महल बनाई ही कुई कै ते उनही कैसे दिजाईन और बनाया गया था"
+    }
+   ]
+  },
+  "bn": {
+   "n": 10,
+   "speakers": [
+    "bn_female",
+    "bn_male"
+   ],
+   "synth": {
+    "wer": 1.0,
+    "cer": 1.0836891545687446
+   },
+   "real": {
+    "wer": 1.136094674556213,
+    "cer": 1.470538001707942
+   },
+   "examples": [
+    {
+     "ref": "নিজের ছেলেকে খুন করার অভিযোগে এডিনবার্গ শেরিফ কোর্টে রয়েছে আডেকোয়া।",
+     "synth": "ლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლ",
+     "real": "ಸಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿ"
+    },
+    {
+     "ref": "১৯৮১ সালে ভ্যান্ডা মিস জোয়াকুইম নামে বর্ণসঙ্কর এক অর্কিডকে দেশের জাতীয় ফুল হিসাবে মনোনীত করা হয়েছিল।",
+     "synth": "....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................",
+     "real": "उनिश्वे एकाशिशा ले व्यान्डा मिस जो अकुएम नामे बरनो शंकर अर्किट के देशे जात्यो फूल ही सभे मुननितो करा होए चेलो."
+    },
+    {
+     "ref": "যেহেতু ফলকটি কোন না কোন দিকে কাত হয়ে যায়, তাই ফলকের নীচের অংশটি কিছুটা বাঁকানো হওয়ায় বরফের সংস্পর্শে থাকা প্রান্তটিও বেঁকে যায়।",
+     "synth": "្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្ ្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្",
+     "real": "जेहे तु फलोक ती कुन ना कुन दिके कात हो जाई ताई फलोके निचेर अंख्षोटी किषुटा बाकानो हवाई बरो फेर समवर्षे था का प्रांत तो दियो बेके जाई."
+    }
+   ]
+  },
+  "ta": {
+   "n": 10,
+   "speakers": [
+    "ta_female",
+    "ta_male"
+   ],
+   "synth": {
+    "wer": 2.5555555555555554,
+    "cer": 2.2215568862275448
+   },
+   "real": {
+    "wer": 0.5925925925925926,
+    "cer": 0.16680923866552608
+   },
+   "examples": [
+    {
+     "ref": "வடிப்பான்கள் வேலை செய்யும் திறன் ஒன்றுக்கொன்று மாறுபடும், மற்றும் நீங்கள் இதைப்பற்றி ஒரு அக்கறைக் கொண்டிருந்தால், ஒரு நல்ல புகழ்பெற்ற நிறுவனத்தின் ஒரு சீல் செய்யப்பட்ட பாட்டில் தண்ணீர் வாங்குவதை மனதில் கொள்ள வேண்டும்.",
+     "synth": "வருத்தார்கள் வேறை செய்யும் தியால் உன்னுக்கு ஒன்று மார்ந்தும் மற்றும் இதைத் தெரியும் உன்னும் அற்றைக் கொளியும் நாட்கு ஒரு நல்ல புகத்தை தெரியும் அழத்தியும் ஒரு சிய சிய பத்தக் காத்தில் தெரியும் மார்ந்தும் வரை மலையில் கொள்ள வேண்டும்.",
+     "real": "வழிப்பாங்கள் வேலை செய்யும் திரண் ஒன்று கொண்டும் மாறுப்படும் மற்றும் நீங்கள் இவைப்பட்டு ஒரு அக்கறைக் கொண்டி இருந்தாலும் ஒரு நல்ல புகல் பெட்ட நிறுவனத்தின் ஒரு சீல் வைக்கப்பட்ட பாட்டில் தன்னிருவாங்குவதை மனதில் கொள்ள வேண்டும்."
+    },
+    {
+     "ref": "பந்தயத்தைத் தொடர்ந்து, Keselowski டிரைவர்கள் சாம்பியன்ஷிப்பில் 2,250 புள்ளிகளுடன் முன்னனியில் தொடர்கிறது.",
+     "synth": "பார்த்துக்கொண்டு வேண்டும் திச்சியும் சித்தி வேண்டும் சாட்டிய சித்தியும் புரிக்கும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வேண்டும் வ",
+     "real": "பந்தையத்தைத் தொடர்ந்து கெஸ்லோஸ்கி டிர்வர்கள் சாம்பியன் சிப்பில் 2,250 புள்ளிகளுடன் முன்னனியில் தொடர்கிறது."
+    },
+    {
+     "ref": "கடற்பரப்பு வரைபடத்தைத் தொடர்ந்து, ஒரு ROV-ஐப் பயன்படுத்தி சிதைவு ஒன்று கண்டுபிடிக்கப்பட்டது.",
+     "synth": "அடக்காட்டு வாய்க்காட்டை, பாய்க்கு, ஓர்பு வாய்ப் பாய்ப் பாய்க்கி, சிக்கையும் முக்கார்க்கு வீட்டப் பாப்பே.",
+     "real": "கருப்பு வரைப்படத்தைத் தொடர்ந்து ஒரு ஆர்வோ வியைப் பயன்படுத்தி சிதைவு ஒன்று கண்டப்படிக்கப்பட்டது."
+    }
+   ]
+  },
+  "te": {
+   "n": 10,
+   "speakers": [
+    "te_female",
+    "te_male"
+   ],
+   "synth": {
+    "wer": 4.161538461538462,
+    "cer": 2.395854922279793
+   },
+   "real": {
+    "wer": 1.123076923076923,
+    "cer": 1.4404145077720207
+   },
+   "examples": [
+    {
+     "ref": "దీనిని సులభంగా చదవడానికి మరియు కోరుకున్నవిధంగా లేదా తక్కువ రంగుతో కస్టమైజ్ చేయవచ్చు.",
+     "synth": "ಸಾರಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿ",
+     "real": "दीनिनि सुलबंगा चदवतानि की मरियो खोरुकुन्ना विदंगा लेएदा तक्वरंगु तो कस्टमाइस चेया वचु."
+    },
+    {
+     "ref": "ఉదాహరణకు, ఎవరైనా కారు కిటికీ పగలగొట్టడాన్ని మీరు చూస్తే గనుక, అతను ఎవరో కారును దొంగిలించడానికి ప్రయత్నిస్తున్నాడని మీరు అనుకోవచ్చు.",
+     "synth": "ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ",
+     "real": "उदाहरे नकु एवरेना कारू किटकी पगलगोट़ा ननी मीरू चूसते गनका अदनू एवरो कारूनो दूंगलिंचाडान के प्रैट्निस तूनादनी मीरू अनुको अचूूुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुुु"
+    },
+    {
+     "ref": "ఇది మాంసాహారుల నుండి వాటిని కాపాడుకోవడానికి విస్తృతంగా చిన్న ప్రదేశాలలో దాచుకోవడానికి అవకాశం ఇస్తుంది.",
+     "synth": "ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ ḍ",
+     "real": "ಸಾರಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿಲಿ"
+    }
+   ]
+  },
+  "pa": {
+   "n": 10,
+   "speakers": [
+    "pa_female",
+    "pa_male"
+   ],
+   "synth": {
+    "wer": 1.1774891774891776,
+    "cer": 1.0611160318866253
+   },
+   "real": {
+    "wer": 1.0303030303030303,
+    "cer": 1.0513728963684676
+   },
+   "examples": [
+    {
+     "ref": "ਇਹ ਯਕੀਨ ਰੱਖੋ ਕਿ ਤੁਹਾਡੇ ਮਰੀਨਾਜ਼ ਪਹੁੰਚਣ ‘ਤੇ ਸਭ ਕੁੱਝ ਸਪੱਸ਼ਟ ਹੋਵੇਗਾ। ਤੁਹਾਡੀ ਮੁਲਾਕਾਤ ਹੋਰਾਂ ਹਿੱਚਹਾਈਕਰਸ ਨਾਲ ਮੁਲਾਕਾਤ ਹੋਵੇਗੀ ਅਤੇ ਉਹ ਤੁਹਾਡੇ ਨਾਲ ਆਪਣੀ ਜਾਣਕਾਰੀ ਨੂੰ ਸਾਂਝਾ ਕਰਨਗੇ।",
+     "synth": "भीजे तिरा कुकि तादी मैं आफ़ा उत्टीसा उतीसा बस्फूलिणा ख्लादी मुला ताद्फूलिचा इप्रस्मार मुला ताद्फूलिणी आदी अख्लादी मुला भी जार्ठा इनु साँजा तादी.",
+     "real": "इह जिकीन रखको की तोड़े मरी नास पाँचन ते सब कुष्पस्त होगेगा तोड़ी मुलाकात होगा हीच राएकर्स नाल मुलाकात होगेगी आते अहो तोड़े नाल अपनी जान कर लिनु सन्जा कर नगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेगेईगेईगेईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईईई"
+    },
+    {
+     "ref": "ਸੂਰਜ ਤੇ ਧਰਤੀ ਵਰਗੀ ਪਰਤ ਨਹੀਂ ਹੈ ਜਿਸ ਤੇ ਤੁਸੀਂ ਖੜੇ ਹੋ ਸਕਦੇ ਹੋ। ਸੂਰਜ ਤੇ ਸਾਰੀ ਜਗ੍ਹਾਂ ਗੈਸਾਂ, ਅੱਗ ਅਤੇ ਪਲਾਜ਼ਮਾ ਹੈ।",
+     "synth": "शुराजटे ना तीवारी पारतगाईवाई जेज़द तुषीं करी वो साकदेवो शुराजटे साईईज़वाईशां आर्वाठे पाराजवाई",
+     "real": ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+    },
+    {
+     "ref": "ਯੂਰੋਪ ਅਤੇ ਬ੍ਰਾਡਬੈਂਡ ਸੈਟੇਲਾਈਟ ਨਾਲ ਸਮੁੰਦਰ ਦੇ ਹੇਠਾਂ ਫਾਈਬਰ ਆਪਟਿਕ ਕੇਬਲ ਲਿੰਕਸ ਦਾ ਧੰਨਵਾਦ ਕਿ ਉਹਨਾਂ ਕਾਰਨ ਗ੍ਰੀਨਲੈਂਡ ਇੰਟਰਨੈੱਟ ਤੱਕ ਪਹੁੰਚ ਵਾਲੀ 93% ਆਬਾਦੀ ਨਾਲ ਚੰਗੀ ਤਰ੍ਹਾਂ ਜੁੜਿਆ ਹੋਇਆ ਹੈ।",
+     "synth": "बूब अदे बार मेंना सेति लेए तवार समणा दिहे तवाईबर अप्टिक्टिबर लेए तश्दाड़ा वातिए वोना खालन दीना लेए नु इंटमेट तवाए आबादि नाचान लिटा जिया वोडा हे.",
+     "real": "Yuro pate Brad Band Satellite Naal Samundar De Hitta Fiber Opti Keva Links Ta Thanawad Ki Unna Karan Green Land Internet Ta Konch Waali 300% Ka Baadi Naal Changi Dara Jodaya Wa Hai Hai."
+    }
+   ]
+  },
+  "ur": {
+   "n": 10,
+   "speakers": [
+    "ur_female",
+    "ur_male"
+   ],
+   "synth": {
+    "wer": 3.6798245614035086,
+    "cer": 3.9501953125
+   },
+   "real": {
+    "wer": 0.3333333333333333,
+    "cer": 0.1591796875
+   },
+   "examples": [
+    {
+     "ref": "\"وہ دن میں اردگرد کی سطح کی نسبت زیادہ ٹھنڈے اور رات میں زیادہ گرم ہوتے ہیں۔",
+     "synth": "بوڑا محادر تیس دیتی لسا بیچیادہ تلی اور عاد بیچیادہ تیس دیتی",
+     "real": "وہ دن میں ارد گرد کی ساتھے کی نسبت زیادہ تھندہ اور رات میں زیادہ گرم ہوتے ہیں"
+    },
+    {
+     "ref": "گھر میں علاقائی جراثیم کے ساتھ مسلسل رابطے کی وجہ سے مشکلات زیادہ ہیں جن سے آپ پہلے مدافعت کے قابل ہیں۔",
+     "synth": "ایجا ٹیوٹی ساتھ مصرزی برابطی تیو جسی مصرزی برابطی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹیوٹی ٹی",
+     "real": "گھر میں علاقائی جراسین کے ساتھ مسلسل رابطے کی وجہ سے مشکلہ زادہ ہیں جن سے آپ پہلے مدافیت کے قابل ہیں"
+    },
+    {
+     "ref": "انہوں نے اپنے بیان میں یہ بھی کہا کہ ”جہاز کا عملہ فی الوقت ان بہترین طریقوں پر غور کر رہا ہے جن کے ذریعہ جہاز کو بحفاظت نکالا جا سکے۔“",
+     "synth": "اپنی بیرمیدی بیٹا تنیاس تیرمی فیال تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تیرمی تی",
+     "real": "انہوں نے اپنے بیان میں یہ بھی کہا کہ جہاز کا املہ فل وقت ان بہترین طریقوں پر غور کر رہا ہے جن کے ذریعے جہاز کو بحفظت نکالا جا سکے"
+    }
+   ]
+  },
+  "mr": {
+   "n": 10,
+   "speakers": [
+    "mr_female",
+    "mr_male"
+   ],
+   "synth": {
+    "wer": 1.3862068965517242,
+    "cer": 1.1437066402378593
+   },
+   "real": {
+    "wer": 1.096551724137931,
+    "cer": 0.4370664023785927
+   },
+   "examples": [
+    {
+     "ref": "बहुतेक टेलिव्हिजन हे सामान्य जनतेला खुश करण्यासाठी तयार केले जातात.",
+     "synth": "बवो ते ते लिजी जो हे सामल यो जंदेया खूश कर्या साती तैया के ले जाता.",
+     "real": "बहुते एक तेलीविजन हे सामान ने जन्जेला खूश करना सरी तेल के लिजाता."
+    },
+    {
+     "ref": "मुख्य अॅमेझॉन नदी ही ६,३८७ किमी (३,९८० मैल) आहे. ती हजारो लहान नद्यांचे पाणी गोळा करते.",
+     "synth": "बुक्या आई में जुन नदीगी तिमि में आई ती हाजा रुलां नद्यां से पानी पुला करते।",
+     "real": "मुख्य आमेजान नदी, ही साहाहाजार तीनशे सत्याशी किलोमिटर, तीनहाजार नुश्याइशी माईल आहे, तीहाजारो लहान नदेन से पानी गोला करतें."
+    },
+    {
+     "ref": "सॅन फ्रान्सिस्कोने अनेक हॉटेल, उपहारगृह आणि अधिवेशनांसाठी लागणाऱ्या उच्च दर्जाच्या सुविधा यांसह पर्यटनाच्या पायाभूत सुविधा मोठ्या प्रमाणावर विकसित केल्या आहेत.",
+     "synth": "सिंप्राजिस्कुने आने हो ते उपार आनी आदिवेज्मन सादी नागनाया उच्वदर्जाच्या सुविया जंस्र पायतनाच्या पयावू सुविया मुद्या पामाना वप्विषिक ते याएट.",
+     "real": "स्यान प्रांषिस कुने अनेक होटेल उपाहर गुह अनी अदिवेशनान सा ती लागनारे उच्टर्दान चा सुभिदा यान सा परेटान चा पायबूच्विदा मोटे प्रमनात विखसित के लिए द्रमना."
+    }
+   ]
+  },
+  "as": {
+   "n": 10,
+   "speakers": [
+    "as_female",
+    "as_male"
+   ],
+   "synth": {
+    "wer": 1.4172661870503598,
+    "cer": 1.8849162011173184
+   },
+   "real": {
+    "wer": 2.0863309352517985,
+    "cer": 1.5217877094972068
+   },
+   "examples": [
+    {
+     "ref": "প্ৰথমতে লাইটৰ সজুলিটোৰ ছুইছটো বন্ধ কৰিব লাগিব বা বৈদ্যুতিক তাঁৰডালৰ সংযোগ বিছিন্ন কৰি ল'ব লাগিব।",
+     "synth": "प्रच्ख्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च्च",
+     "real": "प्रत्ह मुते लाईटर होजुली तूर सूविस्टू बन्दो करी बा बा बाब दूतिक तार डलर हंजुक भिसिन न करी लब लागी बो."
+    },
+    {
+     "ref": "বুমেৰাঙ দলিউৱা বহু পৰ্য্যটকে আহৰণ কৰিব বিচৰা এটা জনপ্ৰিয় পাৰদৰ্শিতা।",
+     "synth": "बुयान दोब वा बु पुलिगे तके आवरन कोयो दिशो लाए ता जो नो पियो परडोषि",
+     "real": "बूमेरां दूली वा बवो पज्जतोके आफरों करीवो विसरा एता जोन प्रियोप पारडर किता"
+    },
+    {
+     "ref": "এইটোৱে সিহঁতক চিকাৰীৰ পৰা লুকাবলৈ বিস্তৃত সৰু সৰু ঠাই প্ৰদান কৰে।",
+     "synth": "ლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლლ",
+     "real": "្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្្"
+    }
+   ]
+  },
+  "ml": {
+   "n": 10,
+   "speakers": [
+    "ml_male",
+    "ml_female"
+   ],
+   "synth": {
+    "wer": 1.8596491228070176,
+    "cer": 1.7741659538066723
+   },
+   "real": {
+    "wer": 4.184210526315789,
+    "cer": 1.473053892215569
+   },
+   "examples": [
+    {
+     "ref": "ഒരു പ്രത്യേക രോഗലക്ഷണത്തിന്റെ പല തരങ്ങൾ കാണിക്കുന്ന വ്യക്തികൾ പോളിമോർഫിക് ആണ്.",
+     "synth": "पुर्वे दिये रुगरा संटिये पालगाय मेरे खाए तियोगे तियोगे पुर्वे राफिखाय.",
+     "real": "अरि प्रत्टेग रोग लेक्षनत ने पला तरंगल कानिक ना विक्तिगल पोली मर्फिक आना"
+    },
+    {
+     "ref": "ജനപ്രിയമല്ലാത്ത തീരുമാനങ്ങൾ എടുക്കുക, അച്ചടക്ക നടപടി, പ്രകടന വിലയിരുത്തലുകൾ, ഉത്തരവാദിത്തം ഏൽപ്പിക്കൽ, ആളുകളെ ഉത്തരവാദിത്തമുള്ളവരായി സംരക്ഷിക്കുക എന്നിവ ഇത്തരത്തിലുള്ള മാനേജർക്ക് പ്രയാസമുണ്ട്.",
+     "synth": "....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................",
+     "real": "Jena Priyamalaga Thirumarangallu dukkuka, aachadaka nadanabadi, prakadana vilayiruthilugal, utharavaditha male pikel, aalugalai utharavaditha mullavarai samadhekshikkuka, enniva, itharathulugla manajurukku prayasam undul."
+    },
+    {
+     "ref": "ഒരു കലാപത്തിനിടയിൽ ഇറാഖിലെ അബൂ ഗരീബ് ജയിലിന് തീവെച്ചു",
+     "synth": "ḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍḍ",
+     "real": "अरि कोलपादगत्ति निदािल इराकिले अब गरीब जेलिने तीवच्य।"
+    }
+   ]
+  }
+ }
+}

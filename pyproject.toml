@@ -1,0 +1,15 @@
+[project]
+name = "polyvoice-ai"
+version = "0.1.0"
+description = "Multilingual speech generation research platform"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "torch>=2.5", "torchaudio>=2.5", "transformers>=4.46,<5", "numpy<2.3", "scipy", "librosa", "soundfile",
+  "fastapi>=0.115", "uvicorn[standard]", "pydantic>=2.7", "pydantic-settings", "python-multipart",
+  "sqlalchemy>=2.0", "num2words", "vocos", "einops", "pyyaml", "uroman", "pytest", "httpx",
+]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["real_model: runs actual model inference (downloads weights)", "mock: uses mocked backends"]
+[tool.setuptools.packages.find]
+include = ["backend*", "ml*"]

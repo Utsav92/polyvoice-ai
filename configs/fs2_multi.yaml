@@ -1,0 +1,18 @@
+# Multilingual FastSpeech2 (speaker + language embeddings), acoustic model from scratch; vocoder = pretrained Vocos (MIT).
+# Normalisation stats are computed once at first start and FROZEN in <run_dir>/fs2_stats_frozen.json.
+# NOTE: all non-English audio was cached at 16 kHz, so mels have no content above ~8 kHz (output is band-limited).
+device: auto
+data_root: data/datasets/multi
+run_dir: runs/fs2_multi_v1
+multi:
+  # FULL fixed language list: the position is the language-embedding index and must NEVER be reordered or shortened (no ar, ja, sv by decision).
+  # Languages without alignment+features for >= min_coverage of their manifest are skipped at start-up and picked up automatically on a restart.
+  languages: [en, de, fr, it, es, nl, zh, hi, bn, ta, te, mr, gu, kn, ml, pa, or, as, ur]
+  speaker_slots: 1024            # fixed speaker-embedding table; speaker->slot map is persisted in <run_dir>/speaker_map.json (append-only)
+  min_coverage: 0.95
+  sampling_alpha: 0.5            # per-language sampling share ~ hours^alpha (1 = proportional, 0 = uniform over languages)
+  tokenizer: data/datasets/multi/tokenizer.json
+  min_score: -0.7                # e.g. -1.5 drops utterances with poor CTC alignment (log-prob per frame)
+teacher: {aligner: "per-language wav2vec2 CTC, all Apache-2.0 (see docs/model_licenses.md)", method: CTC forced alignment, note: durations are labels only; the FS2 acoustic model is random-init}
+model: {hidden: 256, heads: 2, enc_layers: 4, dec_layers: 4, ffn: 512, ffn_kernel: 9}
+train: {batch_size: 16, lr: 0.0005, warmup: 4000, clip_grad: 1.0, max_steps: 150000, workers: 2, log_every: 50, val_every: 1000, ckpt_every: 2000, keep_ckpts: 3}

@@ -1,0 +1,103 @@
+{
+ "checkpoint": "runs/fs2_multi_v1/ckpt/step_0042000.pt",
+ "step": 42000,
+ "languages": {
+  "en": {
+   "n": 12,
+   "speakers": [
+    "en_lj"
+   ],
+   "synth": {
+    "wer": 0.07317073170731707,
+    "cer": 0.025884383088869714
+   },
+   "real": {
+    "wer": 0.004878048780487805,
+    "cer": 0.001725625539257981
+   },
+   "examples": [
+    {
+     "ref": "However, the fact must not be blinked that machine-made paper cannot in the nature of things be made of so good a texture as that made by hand.",
+     "synth": "However, the fact must not be blinked, that machined made paper cannot, in the nature of things, be made of so good a texture as that made by hand.",
+     "real": "However, the fact must not be blinked. That machine-made paper cannot, in the nature of things, be made of so good a texture as that made by hand."
+    },
+    {
+     "ref": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard.",
+     "synth": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its onwards and year.",
+     "real": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard."
+    },
+    {
+     "ref": "There was no distinct place for the female debtors, who lived in the same galleries as the men.",
+     "synth": "There was no distinct place for the female debtors who lived in the same galleries as the men.",
+     "real": "There was no distinct place for the female debtors, who lived in the same galleries as the men."
+    }
+   ]
+  },
+  "de": {
+   "n": 12,
+   "speakers": [
+    "de_2422",
+    "de_4536",
+    "de_9565"
+   ],
+   "synth": {
+    "wer": 0.2641509433962264,
+    "cer": 0.08736643620364551
+   },
+   "real": {
+    "wer": 0.08679245283018867,
+    "cer": 0.018227529855436832
+   },
+   "examples": [
+    {
+     "ref": "Ich habe gestern nacht, so etwa fuhr der Zeuge fort, an Fräulein Olga Molitor geschrieben und sie um eine Unterredung ersucht",
+     "synth": "Ich habe gestern Nacht so etwa vor der Zeuge fort an Frau Lein Olga Molitor geschrieben und sie um eine Unterredung ersucht.",
+     "real": "Ich habe gestern Nacht, so etwa, fuhr der Zeugefrucht, an Freundin Olga Molitor geschrieben und sie um eine Unterredung ersucht."
+    },
+    {
+     "ref": "Stell eine Pyramide auf, wandte er sich an den Markör.",
+     "synth": "Ich stelle eine Piramide auf, wann der sich von den Markpüren...",
+     "real": "Stell eine Pyramide auf, wandte er sich an den Markör."
+    },
+    {
+     "ref": "diese hatte er sich an den Gürtel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war",
+     "synth": "Diese hatte er sich an dem Gürtel gebunden, da sie in die Jaßtasche nicht mehr hineingegangen war.",
+     "real": "Diese hatte er sich an den Gürtel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war."
+    }
+   ]
+  },
+  "zh": {
+   "n": 12,
+   "speakers": [
+    "zh_SSB0193",
+    "zh_SSB0043",
+    "zh_SSB0018"
+   ],
+   "synth": {
+    "wer": 0.5634920634920635,
+    "cer": 0.26194398682042835
+   },
+   "real": {
+    "wer": 0.12698412698412698,
+    "cer": 0.08896210873146623
+   },
+   "examples": [
+    {
+     "ref": "bao1 ni3 liu2 zhe ba",
+     "synth": "bang1 ni3 ying2 le ba",
+     "real": "bang1 ni3 liu2 zhe ba"
+    },
+    {
+     "ref": "zhan4 gai1 gong1 si1 zong3 li4 run4 de bai3 fen1 zhi1 san1 shi2 qi1",
+     "synth": "zheng4 an1 gong1 si1 zong3 yi4 lun4 le bai3 fen1 zhi1 san1 shi2 qi1",
+     "real": "zhan4 gai1 gong1 si1 zong3 li4 run4 de"
+    },
+    {
+     "ref": "er4 ling2 yi1 wu3 zhong1 guo2 ji4 shu4 jing1 ji4 lun4 tan2 zai4 nan2 jing1 cai2 jing1 da4 xue2 ju3 ban4",
+     "synth": "dai4 yan3 yi1 wu3 dong1 guo2 ji4 shu4 jing1 ji4 ren4 tang2 zai4 nian2 jin1 zhang3 jin1 dai4 xie2 zi dai4",
+     "real": "zhong1 guo2 ji4 shu4 jing1 ji4 lun4 tan2 zai4 nan2 jing1 can2 jin1 da4 xue2 ju3 ban4"
+    }
+   ]
+  }
+ }
+}

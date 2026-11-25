@@ -1,0 +1,42 @@
+{
+ "en": {
+  "ref": "hello i have three apples today",
+  "hyp": " Hello, I have three apples today.",
+  "cer": 0.0
+ },
+ "hi": {
+  "ref": "नमस्ते, आज मौसम बहुत अच्छा है।",
+  "hyp": " नमस्ते आज मोसम बहुत अच्छा है",
+  "cer": 0.036
+ },
+ "es": {
+  "ref": "hola tengo tres manzanas hoy",
+  "hyp": " ¡Hola! Tengo tres manzanas por...",
+  "cer": 0.071
+ },
+ "fr": {
+  "ref": "bonjour j'ai trois pommes aujourd'hui",
+  "hyp": " Bonjour, j'ai trois pommes aujourd'hui.",
+  "cer": 0.0
+ },
+ "de": {
+  "ref": "hallo ich habe heute drei äpfel",
+  "hyp": " Hallo, ich habe heute drei Äpfel.",
+  "cer": 0.0
+ },
+ "ar": {
+  "ref": "مرحبا، الطقس جميل اليوم.",
+  "hyp": " ماحب التقص جاميل اليوم",
+  "cer": 0.227
+ },
+ "ko": {
+  "ref": "안녕하세요, 오늘 날씨가 정말 좋습니다.",
+  "hyp": " 안녕하세요. 오늘 날씨가 정말 좋습니다.",
+  "cer": 0.0
+ },
+ "pt": {
+  "ref": "olá eu tenho três maçãs hoje",
+  "hyp": " Olá, eu tenho três macês hoje.",
+  "cer": 0.071
+ }
+}

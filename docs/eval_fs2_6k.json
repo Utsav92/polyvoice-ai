@@ -1,0 +1,34 @@
+{
+ "n_utterances": 30,
+ "test_split": "LJSpeech held-out test (hash split)",
+ "asr": "openai/whisper-small",
+ "models": {
+  "polyvoice-fastspeech2-lj": {
+   "wer": 0.03592814371257485,
+   "cer": 0.02503382949932341,
+   "failures": 0,
+   "mean_rtf": 0.04095131515485951,
+   "mean_audio_s": 6.2104888888888885,
+   "train_step": 6000,
+   "mos": null,
+   "speaker_similarity": null,
+   "first_audio_latency_s": null,
+   "peak_memory_mb": null,
+   "notes": "mos/speaker_similarity/latency/memory: unavailable (no listeners / embedder / streaming / per-process probe)",
+   "examples": [
+    {
+     "ref": "In good printing the spaces between the words should be as near as possible equal",
+     "hyp": " In good printing the spaces between the words should be as near as possible equal."
+    },
+    {
+     "ref": "However, the fact must not be blinked that machine-made paper cannot in the nature of things be made of so good a texture as that made by hand.",
+     "hyp": " However, the fact must not be blinked that machine-made paper cannot in the nature of things be made of so good a texture as that made by hand."
+    },
+    {
+     "ref": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard.",
+     "hyp": " The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard,"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "checkpoint": "runs/fs2_multi_v1/ckpt/step_0032000.pt",
+ "step": 32000,
+ "languages": {
+  "en": {
+   "n": 12,
+   "speakers": [
+    "en_lj"
+   ],
+   "synth": {
+    "wer": 0.06341463414634146,
+    "cer": 0.03192407247627265
+   },
+   "real": {
+    "wer": 0.004878048780487805,
+    "cer": 0.001725625539257981
+   },
+   "examples": [
+    {
+     "ref": "However, the fact must not be blinked that machine-made paper cannot in the nature of things be made of so good a texture as that made by hand.",
+     "synth": "However, the fact must not be blinked that machine-made paper cannot, in the nature of things, be made of so good a texture as that made by hand.",
+     "real": "However, the fact must not be blinked. That machine-made paper cannot, in the nature of things, be made of so good a texture as that made by hand."
+    },
+    {
+     "ref": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard.",
+     "synth": "The jail at that date was divided into eight separate and more or less distinctive departments, each of which had its own wards and yard.",
+     "real": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard."
+    },
+    {
+     "ref": "There was no distinct place for the female debtors, who lived in the same galleries as the men.",
+     "synth": "There was no distinct place for the female debtors who lived in the same galleries as the men.",
+     "real": "There was no distinct place for the female debtors, who lived in the same galleries as the men."
+    }
+   ]
+  },
+  "de": {
+   "n": 12,
+   "speakers": [
+    "de_2422",
+    "de_4536",
+    "de_9565"
+   ],
+   "synth": {
+    "wer": 0.27169811320754716,
+    "cer": 0.08862350722815839
+   },
+   "real": {
+    "wer": 0.08679245283018867,
+    "cer": 0.018227529855436832
+   },
+   "examples": [
+    {
+     "ref": "Ich habe gestern nacht, so etwa fuhr der Zeuge fort, an Fräulein Olga Molitor geschrieben und sie um eine Unterredung ersucht",
+     "synth": "Ich habe gestern Nacht so etwa vor der Zeige fort an Freylein Olga Molitor geschrieben und sie um eine Unterrichtung ersucht.",
+     "real": "Ich habe gestern Nacht, so etwa, fuhr der Zeugefrucht, an Freundin Olga Molitor geschrieben und sie um eine Unterredung ersucht."
+    },
+    {
+     "ref": "Stell eine Pyramide auf, wandte er sich an den Markör.",
+     "synth": "Stell eine Bärer nieder auf, wann der sich an den Markt höre.",
+     "real": "Stell eine Pyramide auf, wandte er sich an den Markör."
+    },
+    {
+     "ref": "diese hatte er sich an den Gürtel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war",
+     "synth": "Diese hatte er sich an den Bürtel gebunden, da sie in die Jagdrasche nicht mehr hineingegangen war.",
+     "real": "Diese hatte er sich an den Gürtel gebunden, da sie in die Jagdtasche nicht mehr hineingegangen war."
+    }
+   ]
+  },
+  "zh": {
+   "n": 12,
+   "speakers": [
+    "zh_SSB0193",
+    "zh_SSB0043",
+    "zh_SSB0018"
+   ],
+   "synth": {
+    "wer": 10.083333333333334,
+    "cer": 3.2698412698412698
+   },
+   "real": {
+    "wer": 0.8333333333333334,
+    "cer": 0.25396825396825395
+   },
+   "examples": [
+    {
+     "ref": "包你留着吧",
+     "synth": "拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託 拜託",
+     "real": "帮你留着吧"
+    },
+    {
+     "ref": "占该公司总利润的百分之三十七",
+     "synth": "但安公西总议任到百分之三十七",
+     "real": "占該公司總利潤的37%"
+    },
+    {
+     "ref": "二零一五中国技术经济论坛在南京财经大学举办",
+     "synth": "大園衣舞蹈國際術經濟暗含在年紀曾經大學主辦",
+     "real": "2015 中国技术经济论坛在南京残津大学举办"
+    }
+   ]
+  }
+ }
+}

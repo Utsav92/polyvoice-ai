@@ -1,0 +1,295 @@
+{
+  "generated_before_download": "2026-11-18",
+  "datasets": [
+    {
+      "id": "ljspeech",
+      "url": "https://keithito.com/LJ-Speech-Dataset/",
+      "download": "https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2",
+      "version": "1.1",
+      "languages": [
+        "en"
+      ],
+      "license": "Public domain (LibriVox recordings; per dataset page)",
+      "access_restrictions": "None; direct download, no agreement",
+      "speakers": "1 female speaker (Linda Johnson), non-identifying ID only",
+      "transcription_format": "metadata.csv: id|raw text|normalized text",
+      "sampling_rate_hz": 22050,
+      "size_hours": 24,
+      "intended_use": "Single-speaker TTS training from random initialization (Milestone 3)",
+      "commercial_use": "Permitted by public-domain status of the data; verify before shipping",
+      "status": "approved by developer 2026-11-18; downloaded",
+      "known_limitations": [
+        "Single speaker, single language",
+        "Audiobook reading style",
+        "Text from 1884-1964 non-fiction: archaic vocabulary",
+        "Some numeral/abbreviation text is pre-normalized in column 3 only"
+      ]
+    },
+    {
+      "id": "common_voice",
+      "url": "https://commonvoice.mozilla.org/en/datasets",
+      "version": "per release",
+      "languages": [
+        "many"
+      ],
+      "license": "CC0-1.0 (verify per release)",
+      "access_restrictions": "Requires accepting terms on the website; manual download",
+      "status": "NOT downloaded - needs developer action",
+      "known_limitations": [
+        "ASR-oriented: variable microphones, noise",
+        "Not suited to high-quality TTS without heavy filtering"
+      ]
+    },
+    {
+      "id": "mls",
+      "url": "https://www.openslr.org/94/",
+      "version": "n/a",
+      "languages": [
+        "en",
+        "de",
+        "nl",
+        "fr",
+        "es",
+        "it",
+        "pt",
+        "pl"
+      ],
+      "license": "CC-BY-4.0 (verify)",
+      "access_restrictions": "Direct download; very large (tens of GB per language)",
+      "status": "NOT downloaded - large, deferred to multilingual phase",
+      "known_limitations": [
+        "No Hindi/Japanese/Arabic/Korean",
+        "Audiobook audio, variable quality"
+      ]
+    },
+    {
+      "id": "fleurs",
+      "url": "https://huggingface.co/datasets/google/fleurs",
+      "version": "n/a",
+      "languages": [
+        "~102"
+      ],
+      "license": "CC-BY-4.0 (verify)",
+      "access_restrictions": "HF dataset; may require script trust",
+      "status": "NOT downloaded - reserved for evaluation",
+      "known_limitations": [
+        "Small per-language size; read speech; intended for ASR evaluation"
+      ]
+    },
+    {
+      "id": "vctk",
+      "url": "https://datashare.ed.ac.uk/handle/10283/3443",
+      "version": "0.92",
+      "languages": [
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "access_restrictions": "Direct download from Edinburgh DataShare",
+      "status": "APPROVED 2026-11-19 by developer for training (multi-speaker English). Not yet downloaded - blocked on disk space.",
+      "known_limitations": [
+        "~110 speakers, ~400 sentences each, English accents only"
+      ]
+    },
+    {
+      "id": "indicvoices_r",
+      "url": "https://huggingface.co/datasets/ai4bharat/indicvoices_r",
+      "license": "cc-by-4.0 (per HF metadata)",
+      "languages": [
+        "as",
+        "bn",
+        "gu",
+        "hi",
+        "kn",
+        "ks",
+        "ml",
+        "mr",
+        "ne",
+        "or",
+        "pa",
+        "sa",
+        "ta",
+        "te",
+        "ur"
+      ],
+      "size": "~1 TB total on HF",
+      "intended_use": "Multilingual/multi-speaker Indic TTS training (Milestone 3, multilingual phase)",
+      "status": "APPROVED 2026-11-24 by developer for training. Blocked on HF token + terms acceptance (developer action). Not downloaded.",
+      "access_restrictions": "Hugging Face gated (auto-approve): needs an HF account/token and accepting the dataset terms on its page",
+      "commercial_use": "CC-BY-4.0 permits it with attribution (re-verify on the dataset card before shipping)",
+      "download_plan": "Stream a capped per-language subset (target <=4 GB/language after 16 kHz int16 caching); full corpus is ~1 TB so it cannot be downloaded. Disk free at planning time: 54 GB.",
+      "known_limitations": [
+        "Speaker/dialect metadata and per-language hours not yet inspected",
+        "Subset selection needs a quality filter like the LJSpeech validation rules"
+      ]
+    },
+    {
+      "id": "rasa",
+      "url": "https://huggingface.co/datasets/ai4bharat/Rasa",
+      "license": "cc-by-4.0 (per HF metadata)",
+      "languages": [
+        "as",
+        "bn",
+        "kn",
+        "ml",
+        "mr",
+        "ne",
+        "ta",
+        "pa",
+        "te",
+        "sa",
+        "ur",
+        "ks",
+        "sd"
+      ],
+      "size": "~1.4 TB total on HF",
+      "intended_use": "Expressive Indic TTS training; adds Sindhi and Kashmiri coverage",
+      "status": "APPROVED 2026-11-24 by developer for training. Blocked on HF token + terms acceptance (developer action). Not downloaded.",
+      "access_restrictions": "Hugging Face gated (auto-approve): needs an HF account/token and accepting the dataset terms on its page",
+      "commercial_use": "CC-BY-4.0 permits it with attribution (re-verify on the dataset card before shipping)",
+      "download_plan": "Stream a capped per-language subset (target <=4 GB/language after 16 kHz int16 caching); full corpus is ~1 TB so it cannot be downloaded. Disk free at planning time: 54 GB.",
+      "known_limitations": [
+        "Expressive/emotional styles, not neutral reading; not yet inspected"
+      ]
+    },
+    {
+      "id": "fleurs_indic",
+      "url": "https://huggingface.co/datasets/google/fleurs",
+      "license": "cc-by-4.0",
+      "languages": [
+        "hi_in",
+        "bn_in",
+        "ta_in",
+        "te_in",
+        "mr_in",
+        "gu_in",
+        "kn_in",
+        "ml_in",
+        "pa_in",
+        "or_in",
+        "as_in",
+        "ur_pk (+others)"
+      ],
+      "access_restrictions": "None (not gated)",
+      "intended_use": "Training (train split only) for Indian-language VITS; test split stays held-out for WER/CER evaluation",
+      "status": "APPROVED; fetched by the main session with scripts/fetch_fleurs_indic.py (train split, pseudo-speakers <lang>_<gender>); see docs/datasets.md",
+      "known_limitations": [
+        "Read speech, small per language"
+      ]
+    },
+    {
+      "id": "cml_tts",
+      "url": "https://openslr.org/146/",
+      "hf": "https://huggingface.co/datasets/ylacombe/cml-tts",
+      "version": "OpenSLR SLR146",
+      "languages": [
+        "de",
+        "fr",
+        "it",
+        "es",
+        "nl"
+      ],
+      "license": "CC-BY-4.0 (confirmed on OpenSLR listing and paper)",
+      "access_restrictions": "Direct download per language from OpenSLR. Archives are very large (de 190G, nl 86G, es 48G, fr 31G, it 14G) so a full download does NOT fit the ~46 GB free disk; use a capped per-language subset (e.g. ~25 h, by streaming from the HF mirror) or an external disk.",
+      "speakers": "613 speakers across 7 languages (paper); non-identifying IDs only",
+      "transcription_format": "per-utterance text, derived from MLS (LibriVox audiobooks, Project Gutenberg text)",
+      "sampling_rate_hz": 24000,
+      "size_hours": "paper total 3,233.43 h over 7 langs; per-language hours NOT verified",
+      "intended_use": "Multi-speaker multilingual FastSpeech2 training (de fr it es nl)",
+      "commercial_use": "Permitted by CC-BY-4.0 with attribution; verify audiobook source rights before shipping",
+      "status": "APPROVED; fetched by the main session with scripts/fetch_cml_shards.py (shard-based); see docs/datasets.md for current hours",
+      "known_limitations": [
+        "Audiobook reading style",
+        "Variable recording quality across LibriVox volunteers",
+        "Per-language hour counts unverified"
+      ]
+    },
+    {
+      "id": "aishell3",
+      "url": "https://www.openslr.org/93",
+      "version": "SLR93",
+      "languages": [
+        "zh"
+      ],
+      "license": "Apache-2.0 (confirmed on OpenSLR and paper)",
+      "access_restrictions": "Direct download, ~19 GB (data_aishell3.tgz); no agreement",
+      "speakers": "218 native Mandarin speakers; gender/age/accent labels, non-identifying",
+      "transcription_format": "Chinese characters + pinyin with tones (accuracy >98% per paper)",
+      "sampling_rate_hz": "44100 (verify)",
+      "size_hours": 85,
+      "intended_use": "Mandarin multi-speaker TTS training",
+      "commercial_use": "Permitted by Apache-2.0",
+      "status": "APPROVED; PARTIAL via HF mirror AISHELL/AISHELL-3 (apache-2.0 tag; OpenSLR served ~15 KB/s): 5,539 utts, 4.64 h, 100 speakers kept after validation (download of the mirror's 3.4 GB subset was stopped at 47% when it stalled). Aligned 5,437 (98.2%).",
+      "known_limitations": [
+        "Neutral read speech only",
+        "19 GB archive: extract only a subset to fit disk"
+      ]
+    },
+    {
+      "id": "clartts",
+      "url": "https://h-aldarmaki.github.io/clartts",
+      "hf": "https://huggingface.co/datasets/MBZUAI/ClArTTS",
+      "version": "HF MBZUAI/ClArTTS",
+      "languages": [
+        "ar"
+      ],
+      "license": "CC-BY-4.0 (per HF dataset card)",
+      "access_restrictions": "Hugging Face download; verify whether terms must be accepted",
+      "speakers": "1 male speaker",
+      "transcription_format": "Classical Arabic with full diacritics, manually transcribed",
+      "sampling_rate_hz": "unclear in sources (verify)",
+      "size_hours": 12,
+      "intended_use": "Arabic TTS training (single speaker)",
+      "commercial_use": "Permitted by CC-BY-4.0; source is a LibriVox audiobook",
+      "status": "APPROVED; PARTIAL download 5.59 h (4,754 utts, 1 speaker) stopped by the user; Arabic then EXCLUDED from the multilingual model by user decision. Data kept in data/datasets/multi/ar. License CC-BY-4.0 per HF card (not re-verified).",
+      "known_limitations": [
+        "Classical (not dialectal) Arabic, one speaker, one book",
+        "Diacritized text differs from everyday undiacritized input"
+      ]
+    },
+    {
+      "id": "nst_swedish_tts",
+      "url": "https://huggingface.co/datasets/jimregan/nst_swedish_tts",
+      "version": "HF mirror",
+      "languages": [
+        "sv"
+      ],
+      "license": "CC0-1.0 (per HF card tag)",
+      "access_restrictions": "Hugging Face; original Språkbanken copy reportedly removed, so the mirror may be the only source (verify)",
+      "speakers": "1 speaker",
+      "transcription_format": "text per segment",
+      "sampling_rate_hz": 44000,
+      "size_hours": "5,277 segments; hours not verified",
+      "intended_use": "Swedish TTS training (single speaker)",
+      "commercial_use": "CC0 per card; verify provenance (NST, rights transferred to the National Library of Norway in 2011)",
+      "status": "APPROVED 2026-11-24 by developer for training. Not yet downloaded; download capped per language to fit disk.",
+      "known_limitations": [
+        "Single speaker",
+        "Provenance/availability unclear",
+        "Alternative Nord-Parl-TTS (5,090 h Swedish) licence NOT verified"
+      ]
+    },
+    {
+      "id": "jsut_jvs",
+      "url": "https://sites.google.com/site/shinnosuketakamichi/publication/jsut",
+      "version": "JSUT / JVS",
+      "languages": [
+        "ja"
+      ],
+      "license": "Text CC-BY-SA-4.0; AUDIO restricted to academic/non-commercial research and personal use; no redistribution",
+      "access_restrictions": "Public download; commercial use of audio needs permission from the University of Tokyo authors",
+      "speakers": "JSUT 1 female; JVS 100",
+      "transcription_format": "Japanese text (kanji/kana)",
+      "sampling_rate_hz": "JSUT 48000 (verify)",
+      "size_hours": "not verified",
+      "intended_use": "Japanese TTS research",
+      "commercial_use": "NO without separate permission",
+      "status": "REJECTED 2026-11-24 by developer (non-commercial audio). Japanese excluded from this phase.",
+      "known_limitations": [
+        "Non-commercial audio",
+        "Resulting model would also be non-commercial",
+        "Common Voice Japanese (CC0, noisy) is the only permissive alternative found; not evaluated"
+      ]
+    }
+  ],
+  "proposals_added": "2026-11-24 (research only; nothing downloaded; each entry needs developer approval)"
+}

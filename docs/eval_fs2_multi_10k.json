@@ -1,0 +1,73 @@
+{
+ "checkpoint": "runs/fs2_multi_v1/ckpt/step_0010000.pt",
+ "step": 10000,
+ "languages": {
+  "en": {
+   "n": 12,
+   "speakers": [
+    "en_lj"
+   ],
+   "synth": {
+    "wer": 0.07804878048780488,
+    "cer": 0.03882657463330457
+   },
+   "real": {
+    "wer": 0.004878048780487805,
+    "cer": 0.001725625539257981
+   },
+   "examples": [
+    {
+     "ref": "However, the fact must not be blinked that machine-made paper cannot in the nature of things be made of so good a texture as that made by hand.",
+     "synth": "However, the fact must not be blinked that meching made paper cannot in the nature of things be made of so good a texture as that made by hand.",
+     "real": "However, the fact must not be blinked. That machine-made paper cannot, in the nature of things, be made of so good a texture as that made by hand."
+    },
+    {
+     "ref": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard.",
+     "synth": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wars and yard.",
+     "real": "The jail at that date was divided into eight separate and more or less distinct departments, each of which had its own wards and yard."
+    },
+    {
+     "ref": "There was no distinct place for the female debtors, who lived in the same galleries as the men.",
+     "synth": "There was no distinct place for the female debtors who lived in the same dollaries as the men.",
+     "real": "There was no distinct place for the female debtors, who lived in the same galleries as the men."
+    }
+   ]
+  },
+  "de": {
+   "skipped": "no test rows with a known speaker, or language not in checkpoint"
+  },
+  "zh": {
+   "n": 12,
+   "speakers": [
+    "zh_SSB0193",
+    "zh_SSB0043",
+    "zh_SSB0018"
+   ],
+   "synth": {
+    "wer": 1.0833333333333333,
+    "cer": 0.6349206349206349
+   },
+   "real": {
+    "wer": 0.8333333333333334,
+    "cer": 0.25396825396825395
+   },
+   "examples": [
+    {
+     "ref": "包你留着吧",
+     "synth": "幫你留著吧",
+     "real": "帮你留着吧"
+    },
+    {
+     "ref": "占该公司总利润的百分之三十七",
+     "synth": "大概公司总领域有百分之三十七",
+     "real": "占該公司總利潤的37%"
+    },
+    {
+     "ref": "二零一五中国技术经济论坛在南京财经大学举办",
+     "synth": "8.15中國技術經濟溫潭在南京藏京大使主辦",
+     "real": "2015 中国技术经济论坛在南京残津大学举办"
+    }
+   ]
+  }
+ }
+}

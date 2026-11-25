@@ -1,0 +1,7 @@
+# FastSpeech 2 on LJSpeech, Apple Silicon. Acoustic model from scratch; vocoder = pretrained Vocos (MIT) at inference.
+device: auto
+data_root: data/datasets/ljspeech
+run_dir: runs/fs2_lj_local
+teacher: {aligner: facebook/wav2vec2-base-960h (Apache-2.0), method: CTC forced alignment, note: durations are labels only; the FS2 acoustic model is random-init}
+model: {hidden: 256, heads: 2, enc_layers: 4, dec_layers: 4, ffn: 512, ffn_kernel: 9}
+train: {batch_size: 32, lr: 0.0005, warmup: 4000, clip_grad: 1.0, max_steps: 40000, workers: 2, log_every: 50, val_every: 1000, ckpt_every: 2000, keep_ckpts: 3}

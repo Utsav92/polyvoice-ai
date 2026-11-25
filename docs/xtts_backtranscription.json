@@ -1,0 +1,12 @@
+{
+ "ja": {
+  "ref": "こんにちは、今日はとてもいい天気ですね。",
+  "hyp": "文一屋今日はとてもいい天気ですね",
+  "cer": 0.278
+ },
+ "it": {
+  "ref": "Ciao, oggi il tempo è davvero bellissimo.",
+  "hyp": " Ciao, oggi il tempo è davvero bellissimo!",
+  "cer": 0.0
+ }
+}

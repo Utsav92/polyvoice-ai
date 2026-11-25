@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* The studio is dark-only: audio-production UI, and form controls must never inherit a mismatched OS theme. */
+:root {
+  color-scheme: dark;
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+select, textarea, input { color: var(--foreground); }
